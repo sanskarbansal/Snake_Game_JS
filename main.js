@@ -1,7 +1,5 @@
-//To initialize the game;
-
 var scoreDiv = document.getElementById("mydiv");
-
+//To initialize the game;
 function init(){
 	//init canvase into a var called canvas;
 	    canvas = document.getElementById("m_game");
@@ -9,7 +7,7 @@ function init(){
 	    pen = canvas.getContext('2d');
 	//get the windows width and height and init that into the canvas ;
 	    width = window.innerWidth - 100;
-    	height = window.innerHeight -100;
+            height = window.innerHeight -100;
 	    canvas.width = width;
 	    canvas.height = height;
     // make a food 
