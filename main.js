@@ -1,4 +1,4 @@
-var scoreDiv = document.getElementById("mydiv");
+//var scoreDiv = document.getElementById("mydiv");
 //To initialize the game;
 function init(){
 	//init canvase into a var called canvas;
